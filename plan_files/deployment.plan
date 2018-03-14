@@ -1,0 +1,5 @@
+word hacfgfile script_home/${env}/haconf.json
+envcfg ${hacfgfile}
+backup from ha1:tomcatAppsServer appman testapp.war
+deploy to tomcatAppsServer appman.war testapp.war
+pullcfgitem trafficadmin/profiles/${env}/application.properties from trafficadmin into tomcatAppsServer

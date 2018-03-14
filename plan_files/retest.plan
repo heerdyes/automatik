@@ -1,0 +1,4 @@
+envcfg ha_deploy_scripts/${env}/haconf.json
+# comments test
+# ######
+pullcfgitem appman from appman into tomcatAppsServer

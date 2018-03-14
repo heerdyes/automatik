@@ -1,0 +1,4 @@
+word hacfgfile ha_deploy_scripts/${env}/haconf.json
+envcfg ${hacfgfile}
+pause
+p hello

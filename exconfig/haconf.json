@@ -1,0 +1,27 @@
+{
+  "nasRoot": "/home/hmahapatro/nasroot",
+  "relBackupRoot": "bin/_backups_",
+  "absBackupRoot": "/home/hmahapatro/olddisk/_backups_",
+  "haNodes": [
+    {
+      "name": "ha1",
+      "ipAddr": "192.168.1.101",
+      "relPath": "bin/ha1"
+    },
+    {
+      "name": "ha2",
+      "ipAddr": "192.168.1.102",
+      "relPath": "bin/ha2"
+    }
+  ],
+  "relHAPaths": {
+    "tomcatAppsServer": "bin/tomcat-apps",
+    "ssoServer": "bin/sso/server"
+  },
+  "appCfgDirs": {},
+  "defaultCfgDir": "src/main/resources",
+  "ssoappsHome": "ssoapps",
+  "relDeployDir": "webapps",
+  "relConfigDir": "lib",
+  "rootAppDirName": "ROOT"
+}
